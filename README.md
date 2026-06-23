@@ -36,5 +36,5 @@ $ cp .env.example .env
 ## Run the FastAPI server (Development Mode)
 
 ```bash
-$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+$ uv run vicorn main:app --reload --host 0.0.0.0 --port 5000
 ```
