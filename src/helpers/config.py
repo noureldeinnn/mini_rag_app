@@ -6,7 +6,7 @@ class Settings(BaseSettings):
 
     APP_NAME: str 
     APP_VERSION: str
-    FILE_ALLOWED_EXTENSIONS:list[str]
+    FILE_ALLOWED_TYPES:list[str]
     FILE_MAXIMUM_SIZE: int
 
 
